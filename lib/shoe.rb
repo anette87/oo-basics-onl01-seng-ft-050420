@@ -40,7 +40,7 @@ end
 #   ::new
 #     gets initialized with a brand (FAILED - 1)
 #   properties
-#     has a brand (FAILED - 2)
+#     
 #     has a color (FAILED - 3)
 #     has a size (FAILED - 4)
 #     has a material (FAILED - 5)
