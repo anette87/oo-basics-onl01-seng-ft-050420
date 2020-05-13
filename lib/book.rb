@@ -23,6 +23,10 @@ class Book
   def page_count
     @page_count 
   end 
+  
+  def turn_page 
+    
+  end 
 
 
 
