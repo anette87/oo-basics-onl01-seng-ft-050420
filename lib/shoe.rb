@@ -1,5 +1,6 @@
 class Shoe
   
+  attr_accessor :color 
   attr_reader :brand 
   
   def initialize(brand)
@@ -37,8 +38,7 @@ end
 
 
 # Shoe
-#   ::new
-#     gets initialized with a brand (FAILED - 1)
+#   
 #   properties
 #     
 #     has a color (FAILED - 3)
@@ -49,12 +49,3 @@ end
 #     says that the shoe has been repaired (FAILED - 7)
 #     makes the shoe's condition new (FAILED - 8)
 
-# Failures:
-
-#   1) Shoe ::new gets initialized with a brand
-#     Failure/Error: expect{Shoe.new("Adidas")}.to_not raise_error
-
-#       expected no Exception, got #<NameError: uninitialized constant Shoe> with backtrace:
-#         # ./spec/02_shoe_spec.rb:6:in `block (4 levels) in <top (required)>'
-#         # ./spec/02_shoe_spec.rb:6:in `block (3 levels) in <top (required)>'
-#     # ./spec/02_shoe_spec.rb:6:in `block (3 levels) in <top (required)>'
